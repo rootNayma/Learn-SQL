@@ -10,7 +10,7 @@ You can vusialize it as a box rather than toys inside the box.
 2. CREATE TABLE employee (
    Id INT PRIMARY KEY, 
    Name VARCHAR (50) NOT NULL,
-   Address VARCHAR (50)
+   Address VARCHAR (50),
    Hired_Date DATE,
    Salary NUMERIC (10,2)
 );
