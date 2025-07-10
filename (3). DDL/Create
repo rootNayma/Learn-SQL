@@ -3,16 +3,20 @@ It doesn't manipulate data/records inside rows instead it modifies columns.
 You can vusialize it as a box rather than toys inside the box.
 
 
-1. CREATE DATABSE School;
+1. CREATE DATABSE company;
 -  It is the first step, you must create a database first then add data.
 
 
-2. CREATE TABLE Students (
+2. CREATE TABLE employee (
    Id INT PRIMARY KEY, 
    Name VARCHAR (50) NOT NULL,
-   Class INT,
    Address VARCHAR (50)
+   Hired Date DATE,
+   Salary NUMERIC (10,2)
 );
 -  It  creates a table named as Student, with columns ID, Name, Class, Address.
 
+
+SELECT * FROM employee;
+This shows whole table with the data but here i havent added any rows so it will only show columns.
 
