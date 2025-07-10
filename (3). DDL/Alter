@@ -1,2 +1,19 @@
-ALTER TABLE Students
-ADD COLUMN Roll No INT;
+eg:   ALTER TABLE Students
+      ADD COLUMN Roll No INT;
+          - It adds a new column in the table 
+
+
+eg:   ALTER TABLE Students
+      MODIFY COLUMN Roll No SMALLINT;
+          -It changes its value from int into smallint
+
+eg:   ALTER TABLE Students
+      CHANGE COLUMN Roll No Roll_No;
+          - It renames Roll No into Roll_No
+
+eg:   ALTER TABLE student
+      DROP COLUMN email;
+           - It drops/remove column called email from the table
+
+
+
