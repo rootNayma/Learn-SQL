@@ -1,0 +1,16 @@
+There are 5 main types of commands they are :
+
+1. DDL (Data Defination Language)
+  = Create, Alter, Drop, Trunacte
+
+2. DML (Data manipulation Language)
+  = Insert, Update, Delete, Select
+
+3. TCL (Transcation Control Langugae)
+  = Begin, Commit, Rollback, Savepoint
+
+4. DCL (Data Control Language)
+  = Grant, Revoke
+
+5. DQL (Data Query Languge)
+  = Select
