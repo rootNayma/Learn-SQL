@@ -11,7 +11,7 @@ You can vusialize it as a box rather than toys inside the box.
    Id INT PRIMARY KEY, 
    Name VARCHAR (50) NOT NULL,
    Address VARCHAR (50)
-   Hired Date DATE,
+   Hired_Date DATE,
    Salary NUMERIC (10,2)
 );
 -  It  creates a table named as Student, with columns ID, Name, Class, Address.
