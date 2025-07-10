@@ -1,0 +1,16 @@
+INSERT INTO employee(
+Id,
+Name, 
+Address, 
+Hire_Date,
+Salary
+)
+VALUES
+(1, 'Ram', 'Kathmandu_001', '2025-06-10', 10000.00),
+(2, 'Hari', 'Pokhara', '2025-04-12', 20000.05),
+(3, 'Shyam', 'Butwal', '2025-05-1', 12000.50),
+(4, 'Aaakash', 'Kathmandu_0055', '2025-02-14', 10000.92),
+(5, 'Baakaash', 'Chitwan', '2025-09-17', 80000.90)
+;
+
+SELECT * FROM employee;
