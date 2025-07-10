@@ -1,0 +1,6 @@
+TRUNATE TABLE employee;
+
+
+It only deletes all the rows or records completly at once.
+Remeber it only deletes rows but not the table.
+It is useful when you want the table but not the records.
