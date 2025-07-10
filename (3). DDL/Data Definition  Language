@@ -6,6 +6,7 @@ You can vusialize it as a box rather than toys inside the box.
 1. CREATE DATABSE School;
 -  It is the first step, you must create a database first then add data.
 
+
 2. CREATE TABLE Students (
    Id INT PRIMARY KEY, 
    Name VARCHAR (50),
@@ -13,10 +14,7 @@ You can vusialize it as a box rather than toys inside the box.
    Address VARCHAR (50)
 );
 -  It  creates a table named as Student, with columns ID, Name, Class, Address.
-        CREATE TABLE table_name (
-        column_name VALUE,
-        column_name2 VALUE,
-        );
+
 
 3. 
 
