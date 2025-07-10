@@ -8,7 +8,7 @@ eg:   ALTER TABLE Students
           -It changes its value from int into smallint
 
 eg:   ALTER TABLE Students
-      CHANGE COLUMN Roll No Roll_No;
+      RENAME COLUMN Roll No TO Roll_No;
           - It renames Roll No into Roll_No
 
 eg:   ALTER TABLE student
