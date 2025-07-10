@@ -1,0 +1,14 @@
+SQL :
+
+It is properly managed and structured.
+It stores data in tables, in rows and columns.
+Mostly used for banking, complex queries, Erp system such as business, finance, human resource,etc
+Famous tools MySQL, PostgreSQL, Oracel,etc.
+
+
+NoSQL:
+
+It is unstructed and raw like random.
+It stores data as key value pairs, graphs.
+Mostly used for soial media, IoT Data storage, real time processing, big data applications.
+Famous tools MongoDB, Couchbase, Azure Comos DB.
