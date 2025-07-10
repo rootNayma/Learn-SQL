@@ -1,5 +1,5 @@
-As name suggests Data Definition Language defines and manage the database.
-It doesn't manipulate data/records inside rows instead it modifies column. 
+As name suggests Data Definition Language defines and manages the structures of database.
+It doesn't manipulate data/records inside rows instead it modifies columns. 
 You can vusialize it as a box rather than toys inside the box.
 
 
