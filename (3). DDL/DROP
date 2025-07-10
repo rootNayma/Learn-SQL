@@ -1,0 +1,3 @@
+DROP TABLE employee;
+It deletes the whole table called employee without leaving any data or structure.
+Completly means completly.
