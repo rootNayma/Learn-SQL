@@ -9,7 +9,7 @@ You can vusialize it as a box rather than toys inside the box.
 
 2. CREATE TABLE Students (
    Id INT PRIMARY KEY, 
-   Name VARCHAR (50),
+   Name VARCHAR (50) NOT NULL,
    Class INT,
    Address VARCHAR (50)
 );
