@@ -1,1 +1,5 @@
+DELETE FROM employee
+WHERE Name = 'Hari'
+;
 
+It will delete the rows containg name Hari.
