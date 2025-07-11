@@ -1,1 +1,8 @@
+SELECT * FROM employee;
 
+    It will show the table called employee.
+
+
+SELECT Id, Name FROM employee;
+
+   It will only show colmuns called Id and Name from employee.
