@@ -1,0 +1,50 @@
+ Constraints are rules which can be applied to columns or tables. They help ensure that the data entered into a database meets certain conditions.
+
+| Constraint        | Description                                                                             |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| **`NOT NULL`**    | Ensures a column cannot have `NULL` values.                                             |
+| **`UNIQUE`**      | Ensures all values in a column are different.                                           |
+| **`PRIMARY KEY`** | Uniquely identifies each record in a table. Combines `NOT NULL` + `UNIQUE`.             |
+| **`FOREIGN KEY`** | Enforces a link between two tables (referential integrity).                             |
+| **`CHECK`**       | Ensures that values in a column meet a specific condition.                              |
+| **`DEFAULT`**     | Sets a default value if none is provided.                                               |
+| **`INDEX`**       | Speeds up data retrieval (not a constraint in the strict sense, but helps performance). |
+
+
+
+1)  CREATE TABLE employees (
+    id INT NOT NULL,
+    name VARCHAR(100) NOT NULL
+    );
+
+
+2)  CREATE TABLE users (
+    email VARCHAR(100) UNIQUE
+    );
+
+
+3)  CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50)
+    );
+
+
+4)  CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+    );
+
+
+5)  CREATE TABLE accounts (
+    balance DECIMAL(10, 2),
+    CHECK (balance >= 0)
+    );
+
+
+6)  CREATE TABLE tasks (
+    task_id INT,
+    status VARCHAR(20) DEFAULT 'pending'
+    );
+
+
