@@ -48,3 +48,11 @@
     );
 
 
+
+You can also add constraints after table creation using ALTER TABLE.
+
+ALTER TABLE employees
+ADD CONSTRAINT unique_email UNIQUE (email);
+
+
+
