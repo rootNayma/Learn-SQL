@@ -1,0 +1,7 @@
+| Data Type     | Description                              | Example Values           |
+| ------------- | ---------------------------------------- | ------------------------ |
+| `CHAR(n)`     | Fixed-length string                      | `'abc   '`               |
+| `VARCHAR(n)`  | Variable-length string                   | `'hello'`                |
+| `TEXT`        | Large text                               | `'This is a long note.'` |
+| `NCHAR(n)`    | Fixed-length Unicode string (SQL Server) | `'abc'`                  |
+| `NVARCHAR(n)` | Variable-length Unicode string           | `'नमस्ते'`               |
