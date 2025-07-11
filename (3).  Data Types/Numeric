@@ -1,0 +1,10 @@
+| Data Type          | Description                                   | Example Values        |
+| ------------------ | --------------------------------------------- | --------------------- |
+|  'INT'/ `INTEGER`  | Whole numbers                                 | `1`, `100`, `-50`     |
+| `SMALLINT`         | Smaller range of integers                     | `-32,768 to 32,767`   |
+| `BIGINT`           | Larger range of integers                      | `9223372036854775807` |
+| `DECIMAL(p,s)`     | Exact fixed-point numbers                     | `123.45`              |
+| `NUMERIC(p,s)`     | Similar to DECIMAL                            | `1000.99`             |
+| `FLOAT(p)`         | Approximate floating point (SQL Server)       | `3.1415`              |
+| `REAL`             | Approximate (less precision)                  | `2.71`                |
+| `DOUBLE PRECISION` | Approximate floating point (PostgreSQL/MySQL) | `1.7976e+308`         |
