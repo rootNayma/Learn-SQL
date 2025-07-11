@@ -1,0 +1,7 @@
+| Data Type   | Description                    | Example Values             |
+| ----------- | ------------------------------ | -------------------------- |
+| `DATE`      | Only date                      | `'2025-07-11'`             |
+| `TIME`      | Only time                      | `'14:30:00'`               |
+| `DATETIME`  | Date and time                  | `'2025-07-11 14:30:00'`    |
+| `TIMESTAMP` | Date & time with timezone info | `'2025-07-11 14:30:00+00'` |
+| `YEAR`      | Year only (MySQL)              | `'2025'`                   |
